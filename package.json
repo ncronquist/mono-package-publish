@@ -1,0 +1,22 @@
+{
+  "name": "mono-package-publish",
+  "version": "1.0.0",
+  "description": "Example repo for auto-publishing packages from a monorepo.",
+  "main": "none",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncronquist/mono-package-publish.git"
+  },
+  "author": "Nick Cronquist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ncronquist/mono-package-publish/issues"
+  },
+  "homepage": "https://github.com/ncronquist/mono-package-publish#readme"
+}
