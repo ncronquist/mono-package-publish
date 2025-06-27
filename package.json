@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "changeset:auto-version": "node ./scripts/auto-patch.mjs",
+    "changeset:auto-version": "node ./scripts/auto-version.mjs",
     "changeset:version": "changeset version",
     "changeset:manual": "changeset",
     "release": "pnpm changeset version && pnpm publish -r --no-git-checks"
