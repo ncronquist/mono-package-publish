@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/ncronquist/mono-package-publish/issues"
   },
-  "homepage": "https://github.com/ncronquist/mono-package-publish#readme"
+  "homepage": "https://github.com/ncronquist/mono-package-publish#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.29.5"
+  }
 }
