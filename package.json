@@ -1,13 +1,17 @@
 {
   "name": "mono-package-publish",
   "version": "1.0.0",
+  "private": true,
   "description": "Example repo for auto-publishing packages from a monorepo.",
   "main": "none",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "changeset:auto-patch": "node ./scripts/auto-patch.mjs",
+    "changeset:manual": "pnpm changeset",
+    "release": "pnpm changeset version && pnpm publish -r --no-git-checks"
   },
   "repository": {
     "type": "git",
