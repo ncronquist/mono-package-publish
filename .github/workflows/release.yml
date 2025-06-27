@@ -1,0 +1,29 @@
+name: release
+on:
+  push:
+    branches: [main]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+          registry-url: https://npm.pkg.github.com
+          scope: '@ncronquist'
+
+      - run: pnpm install --frozen-lockfile
+
+      # apply bumps generated inside the PR (if any were missed)
+      - run: pnpm changeset version
+
+      # publish every package whose new version
+      # isn't yet on the registry
+      - run: pnpm publish -r --no-git-checks
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
