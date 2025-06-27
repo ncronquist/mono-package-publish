@@ -1,0 +1,17 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  packages/fancy-printer:
+    dependencies:
+      '@ncronquist/left-pad':
+        specifier: workspace:*
+        version: link:../left-pad
+
+  packages/left-pad: {}

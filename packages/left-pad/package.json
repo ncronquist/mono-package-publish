@@ -1,0 +1,25 @@
+{
+  "name": "@ncronquist/left-pad",
+  "version": "1.0.0",
+  "description": "Left-pad strings with a specified character",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "string",
+    "pad",
+    "left",
+    "utility"
+  ],
+  "author": "Nick Cronquist",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncronquist/mono-package-publish.git",
+    "directory": "packages/left-pad"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}

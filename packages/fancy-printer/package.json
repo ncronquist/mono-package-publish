@@ -1,0 +1,33 @@
+{
+  "name": "@ncronquist/fancy-printer",
+  "version": "1.0.0",
+  "description": "A fun terminal text formatter using left-pad for beautiful output",
+  "main": "index.js",
+  "bin": {
+    "fancy-print": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "demo": "node demo.js"
+  },
+  "keywords": [
+    "terminal",
+    "formatting",
+    "text",
+    "cli",
+    "fancy"
+  ],
+  "author": "Nick Cronquist",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncronquist/mono-package-publish.git",
+    "directory": "packages/fancy-printer"
+  },
+  "dependencies": {
+    "@ncronquist/left-pad": "workspace:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
