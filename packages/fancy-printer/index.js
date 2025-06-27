@@ -1,4 +1,4 @@
-const leftPad = require("../left-pad");
+const leftPad = require("@ncronquist/left-pad");
 
 /**
  * FancyPrinter class for creating beautiful terminal output
