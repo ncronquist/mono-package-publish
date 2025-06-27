@@ -24,7 +24,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
 
       # apply bumps generated inside the PR (if any were missed)
-      - run: pnpm changeset version
+      - run: pnpm changeset:version
 
       # publish every package whose new version
       # isn't yet on the registry
