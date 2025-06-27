@@ -10,6 +10,10 @@ function leftPad(str, length, char = " ") {
     str = String(str);
   }
 
+  if (typeof length !== "number" || isNaN(length)) {
+    throw new TypeError("Length must be a number");
+  }
+
   if (str.length >= length) {
     return str;
   }
