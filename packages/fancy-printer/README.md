@@ -223,10 +223,6 @@ fancy-print demo
 
 MIT
 
-## 👤 Author
-
-Nick Cronquist
-
 ## 🐛 Issues & Contributions
 
 Please report issues and submit pull requests on [GitHub](https://github.com/ncronquist/mono-package-publish).
