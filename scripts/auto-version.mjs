@@ -72,12 +72,12 @@ try {
   writeFileSync(file, `---\n${header}\n---\n\nAutomated patch bump\n`);
   console.log(`🦋  wrote ${file} for: ${packagesToBump.join(", ")}`);
 
-  // Apply the changeset immediately to update package.json files
-  console.log("🚀  Applying changesets to update package versions...");
-  execSync("pnpm changeset version", {
-    encoding: "utf8",
-    stdio: "inherit", // Show output in real-time
-  });
+  // // Apply the changeset immediately to update package.json files
+  // console.log("🚀  Applying changesets to update package versions...");
+  // execSync("pnpm changeset version", {
+  //   encoding: "utf8",
+  //   stdio: "inherit", // Show output in real-time
+  // });
 
   console.log("✅  Package versions updated successfully!");
 } catch (error) {
