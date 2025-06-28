@@ -1,5 +1,11 @@
 # @ncronquist/fancy-printer
 
+## 1.0.3
+
+### Patch Changes
+
+- Automated patch bump
+
 ## 1.0.2
 
 ### Patch Changes
