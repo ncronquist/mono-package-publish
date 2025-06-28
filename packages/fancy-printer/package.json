@@ -1,6 +1,6 @@
 {
   "name": "@ncronquist/fancy-printer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A fun terminal text formatter using left-pad for beautiful output",
   "main": "index.js",
   "bin": {

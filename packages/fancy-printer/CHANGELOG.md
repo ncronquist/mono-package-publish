@@ -1,5 +1,13 @@
 # @ncronquist/fancy-printer
 
+## 1.0.4
+
+### Patch Changes
+
+- Automated patch bump
+- Updated dependencies
+  - @ncronquist/left-pad@1.0.2
+
 ## 1.0.3
 
 ### Patch Changes
