@@ -1,6 +1,6 @@
 {
   "name": "@ncronquist/left-pad",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Left-pad strings with a specified character",
   "main": "index.js",
   "scripts": {
