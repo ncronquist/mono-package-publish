@@ -5,7 +5,7 @@ A simple utility for left-padding strings with a specified character.
 ## Installation
 
 ```bash
-npm install @ncronquist/left-pad@1.0.1
+npm install @ncronquist/left-pad
 ```
 
 ## Usage
